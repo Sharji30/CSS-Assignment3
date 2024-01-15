@@ -1,0 +1,37 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+  .gfont {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .zoom {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    transition: transform .2s;
+
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+  }
+
+  .text {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Gruppo', sans-serif;
+  }
